@@ -1,0 +1,548 @@
+.skiptocontent {
+    background: #FFC857;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-500%);
+    transition: transform 0.3s;
+}
+
+.skiptocontent:focus {
+    transform: translateY(0);
+}
+
+/* vertical hamburger menu and Nav Bar */
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #mylinks {
+    display: none;
+    background-color: #2E4052;
+}
+
+.topnav a {
+    color: #FFFFEA;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+}
+
+.topnav a:hover {
+    color: #2E4052;
+    background-color: #00CECB;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.topnav .icon {
+    background: #FF5E5B;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+.topnav .icon:hover {
+    background: #FF5E5B;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.logo {
+    position: relative;
+    height: auto;
+    left: 0;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.logo img:hover {
+    display: none;
+}
+
+nav ul li {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFEA;
+    padding: 10px;
+}
+
+/* img {
+    display:block;
+    max-width: 400px;
+    height: auto;
+    margin: 15px;
+} */
+
+/* Headers */
+h1, h2, h3 {
+    font-family: "Schoolbell", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    color: #2E4052;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FF5E5B;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2E4052;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.body1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Gallery and Hover Effects */
+#gallery img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    padding-top: 15px;
+}
+
+#gallery{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.swap1 img{
+position: block;
+width: 400px;
+height: 400px;
+object-fit: cover;
+}
+
+.swap1 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap1 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.swap2 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap2 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap2 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.swap3 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap3 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap3 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+.swap4 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap4 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap4 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.swap5 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap5 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap5 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+.swap6 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap6 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap6 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+.swap7 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap7 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap7 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+.swap8 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.swap8 #img-back1:hover {
+    opacity: 0;
+}
+
+.swap8 #img-back1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+/* Favorites Page */
+#gallery-2 img {
+    position: block;
+    width: 400px;
+    height: 400px;
+    padding-top: 15px;
+}
+
+#gallery-2 {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fave img:hover {
+    animation: animate 1s;}
+
+    @keyframes animate {
+        1% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .about-pic {
+        display: none;
+    }
+
+
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #2E4052;
+    color: #FFFFEA;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/*Photo Booth */
+.photobooth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame {
+    position: absolute;
+    max-width: 500px;
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frame img {
+    position: block;
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+}
+
+#video {
+    object-fit: cover;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    height: 400px;
+}
+
+#capture-btn,
+#download-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2E4052;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#capture-btn:hover,
+#download-btn:hover {
+    background-color: #00CECB;
+}
+
+
+
+
+@media (min-width: 750px) {
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+    .about-pic {
+        display: grid;
+            grid-row-start: 1;
+            grid-column-start: 1/span 1;
+        }
+
+    .about h2 {
+ display: none;
+    }
+
+    .about p {
+        grid-column-start: 2 / span 1;
+    }
+
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #gallery img {
+padding: 2%;
+gap: 2%;
+    }
+
+    #gallery-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #header-1 {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #FFED66;
+    padding: 20px;
+    
+}
+
+.welcome h1 {
+    flex: 1;
+}
+
+h2 {
+    color: #2E4052;
+    background-color: white;
+}
+
+.logo {
+    position: relative;
+    height: auto;
+    left: 0;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.logo img:hover {
+    display: none;
+}
+
+.topnav .icon {
+    background: #FF5E5B;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    width: 75px;
+    height: 75px;
+}
+
+
+.topnav #mylinks {
+  font-size: 30px;
+}
+
+
+
+
+/* .topnav a {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #2E4052;
+    border-radius: 5px;
+    right: 0;
+    }
+
+.icon {
+    display: none;
+    visibility: hidden;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    right: 0;
+} */
+
+
+}
+
+@media (min-width: 1025px) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #gallery img {
+        padding: 1%;
+        gap: 1%;}
+
+    #gallery-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+.welcome h1 {
+    font-size: 80px;
+}
+
+.about {
+    display: grid;
+grid-template-columns: 1fr 1fr ;
+}
+
+
+    .about-pic {
+        grid-column-start: 1 / 3;
+    }
+
+    .about p {
+        grid-column-start: 3 / span 2;
+        font-size: 25px;
+    }
+
+/* .topnav {
+    display: inline;
+    background-color: #2E4052;
+} */
+
+
+}

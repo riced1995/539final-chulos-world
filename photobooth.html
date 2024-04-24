@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Photobooth</title>
+</head>
+<body>
+<a href="#main-content" class="skiptocontent">
+    Skip to main content
+</a>
+<header>
+<div class="body1">
+<nav>
+
+    <div class="topnav">
+        <li><a href="Homepage.html"><img src="images/chulo_logo.png" alt="Chulo's Logo" class="logo"></img></a></li>
+
+        <ul>
+            <div id="mylinks">
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="favorite.html">Chulo's Faves</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="photobooth.html">Photo Booth &hearts;</a></li>
+            </div>
+
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+
+    </div>
+</nav>
+</header>
+    <main id="main-content">
+
+<h1>Let's take a Pic!</h1>
+<div class="photobooth">
+
+    <div class="frame">
+        <img src="images/Chulo’s World Photobooth-no-bg.png" alt="Frame">
+    </div>
+    <div id="video-container">
+        <video id="video" width="320" height="240" autoplay></video>
+
+<button id="capture-btn">Capture</button>
+<button id="download-btn" style="display: none">Download</button>
+    <canvas id="canvas"></canvas>
+
+</div>
+
+
+</div>
+    </main>
+    <script src="script.js"></script>
+
+    </body>
+    <div class="footer">
+        <p>© 2024 Chu's World. All rights reserved.</p>
+        <p>Follow Chu on Instagram</p>
+    </div>
+    </html>
